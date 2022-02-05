@@ -4,4 +4,39 @@ body {
   margin: 0;
   background-color: #000;
   color: #FFF;
+  display: flex;
+  flex-direction: column;
+}
+
+body #bio {
+  display: flex;
+  flex-direction: column;
+}
+body #bio .vitals {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+body #bio .vitals .pfp {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+body #main {
+  display: flex;
+  flex-direction: column;
+}
+body #main .navigation {
+  width: 100%;
+}
+body #main .navigation ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 5px;
+}
+body #main .navigation ul li {
+  flex: 1;
+  display: inline-block;
 }

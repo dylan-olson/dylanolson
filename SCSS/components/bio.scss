@@ -1,1 +1,16 @@
 //bio
+body {
+    #bio {
+        display: flex;
+        flex-direction: column;
+        .vitals {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            .pfp {
+                max-width: 150px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
