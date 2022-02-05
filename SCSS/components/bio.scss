@@ -8,11 +8,27 @@ body {
         .vitals {
             position: relative;
             display: flex;
-            flex-direction: column;
             flex-wrap: wrap;
+            // pfp image 
             .pfp {
-                max-width: 150px;
+                max-width: 100px;
                 border-radius: 50%;
+            }
+            // titles
+            .title {
+                display: flex;
+                justify-content: flex-start;
+                margin-left: 1.5rem;
+                .pronoun {
+                    display: inline-block;
+                    margin-left: 5px;
+                    font-size: .9rem;
+                    font-weight: 300;
+                    font-style: italic;
+                }
+                .category {
+                    flex: 100%;
+                }
             }
         }
     }

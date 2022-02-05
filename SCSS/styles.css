@@ -9,6 +9,11 @@ body {
   flex-direction: column;
 }
 
+h6 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
 body #bio {
   display: flex;
   flex-direction: column;
@@ -18,12 +23,26 @@ body #bio {
 body #bio .vitals {
   position: relative;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
 }
 body #bio .vitals .pfp {
-  max-width: 150px;
+  max-width: 100px;
   border-radius: 50%;
+}
+body #bio .vitals .title {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1.5rem;
+}
+body #bio .vitals .title .pronoun {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-style: italic;
+}
+body #bio .vitals .title .category {
+  flex: 100%;
 }
 
 body #main {
