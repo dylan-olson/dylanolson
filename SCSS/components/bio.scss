@@ -3,9 +3,12 @@ body {
     #bio {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        padding: 1em;
         .vitals {
             position: relative;
             display: flex;
+            flex-direction: column;
             flex-wrap: wrap;
             .pfp {
                 max-width: 150px;

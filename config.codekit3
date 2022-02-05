@@ -9,28 +9,15 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/IMG\/DW3A9714.JPG" : {
-      "ft" : 16384,
-      "iS" : 6405124,
-      "jF" : 0,
+    "\/IMG\/DW3A9724.png" : {
+      "ft" : 32768,
+      "iS" : 486762,
       "oA" : 0,
-      "oAP" : "\/IMG\/DW3A9714.jpg",
+      "oAP" : "\/IMG\/DW3A9724.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IMG\/DW3A9724.JPG" : {
-      "ft" : 16384,
-      "iS" : 5996166,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/IMG\/DW3A9724.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

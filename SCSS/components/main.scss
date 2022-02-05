@@ -3,6 +3,8 @@ body {
     #main {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        padding: 1em;
         .navigation {
             width: 100%;
             ul {
