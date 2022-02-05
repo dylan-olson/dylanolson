@@ -64,4 +64,5 @@ body #main .navigation ul {
 body #main .navigation ul li {
   flex: 1;
   display: inline-block;
+  text-align: center;
 }
