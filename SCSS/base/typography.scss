@@ -1,5 +1,50 @@
 //typography
+
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600&family=Poppins:ital@1&display=swap');
+
+h1 {
+    font-family: $mont;
+}
+
+h2 {
+    font-family: $mont;
+}
+
+h3 {
+    font-family: $mont;
+}
+
+h4 {
+    font-family: $mont;
+}
+
+h5 {
+    font-family: $mont;
+}
+
+
 h6 {
+    font-family: $mont;
     font-size: 1.1rem;
     margin: 0;
+}
+
+p, li {
+    font-family: $mont;
+    line-height: 24px;
+}
+
+a {
+    color: $white;
+    transition: color .44s ease;
+    text-decoration: none;
+    font-family: $mont;
+    &:hover {
+        color: $blue;
+    }
+}
+
+span {
+    font-family: $mont;
 }

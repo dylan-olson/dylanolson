@@ -6,64 +6,301 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- FontAwesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css?ckcachebust=665797884" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css?ckcachebust=665829686" />
 
         <!-- Main Stylesheet -->
-        <link rel="stylesheet" href="SCSS/styles.css?ckcachebust=633030A41BA92BA454C66F8F55D220BB">
+        <link rel="stylesheet" href="scss/normalize-min.css?ckcachebust=4FE9A961AB78A51D443155F7117C63B9">
+        <link rel="stylesheet" href="scss/styles.css?ckcachebust=1DFAC0F19019D3DEF352605EA3751074">
     </head>
     <body>
         <section id="bio">
             <div class="top">
                 <div class="vitals">
-                    <img class="pfp" src="IMG/DW3A9724.png" alt="Personal Portrait" />
+                    <img class="pfp" src="img/DW3A9724.png" alt="Personal Portrait" />
                     <div class="title">
                         <h6 class="name">Dylan Olson</h6>
                         <span class="pronoun">he/him</span>
                         <h6 class="category">Freelance Photographer and Front End Dev</h6>
+                        <div class="socials">
+                            <ul class="social-nav">
+                                <a href="https://www.instagram.com/dylanj.o"><i class="fab fa-instagram-square"></i></a>
+                                <a href="https://www.linkedin.com/in/dylan-olson-22a285149/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/dylan-olson"><i class="fab fa-github-square"></i></a>
+                                <a href="https://www.twitter.com/thedylanolson"><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://dribbble.com/dylanolson"><i class="fab fa-dribbble-square"></i></a>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="description">
-                    <span class="loc">
-                        <i class="fas fa-map-marker-alt"></i>
-                        Los Angeles, CA
-                    </span>
-                    <span class="linkout">
-                        <i class="fas fa-link"></i>
-                        <a href="https://www.instagram.com/dylanj.o" title="Follow me on Instagram!">
-                            instagram.com/dylanj.o
-                        </a>
-                    </span>
-                    <span class="version">
-                        <i class="far fa-calendar-alt"></i>
-                        Last Updated: 2/05/22
-                    </span>
+                    <div class="description">
+                        <span class="loc">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Los Angeles, CA
+                        </span>
+                        <span class="linkout">
+                            <i class="fas fa-link"></i>
+                            <a href="https://www.instagram.com/dylanj.o" title="Follow me on Instagram!">
+                                instagram.com/dylanj.o
+                            </a>
+                        </span>
+                        <span class="version">
+                            <i class="far fa-calendar-alt"></i>
+                            Last Updated: 2/05/22
+                        </span>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="main">
             <div class="navigation">
                 <ul>
-                    <a href="#overview"><li>Overview</li></a>
-                    <a href="#experience"><li>Experience</li></a>
-                    <a href="#skills"><li>Skills</li></a>
-                    <a href="#education"><li>Education</li></a>
+                    <a class="active nav-item" href="#overview"><li>Overview</li></a>
+                    <a class="nav-item" href="#experience"><li>Experience</li></a>
+                    <a class="nav-item" href="#skills"><li>Skills</li></a>
+                    <a class="nav-item" href="#education"><li>Education</li></a>
                 </ul>
             </div>
-            <div id="overview">
+            <!-- OVERVIEW -->
+            <div class="active card" id="overview">
                 <p>Self taught Photographer and Front-End Developer born in Memphis, TN. Published photography work with some of the biggest brands in Music. Currently working and residing in Los Angeles, California.</p>
                 <p>Hard working and driven to produce results and meaningful impacts.</p>
             </div>
-            <div id="experience">
-                
+            <!-- EXPERIENCE -->
+            <div class="card" id="experience">
+                <h1 class="heading">Experience</h1>
+                <div class="entry">
+                    <div class="top">
+                        <h3>UTK School of Music</h3>
+                        <a class="external-link" href="https://music.utk.edu/" title="Link to UTK School of Music"><i class="fas fa-external-link-alt"></i></a>
+                        <span class="year">2018</span>
+                        <h6 class="sub">Freelance Photography</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for shooting live events for a wide range of musical performances</li>
+                        <li>Quick turn around for these events (next day)</li>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                            <h3>Personal Media Coverage for Independent Artist Alex Cross</h3>
+                            <span class="year">2018-<i>present</i></span>
+                            <h6 class="sub">Freelance Media Production</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for shooting live events and curating marketing assets</li>
+                        <li>Experience with touring photography and lifestyle photo and video production</li>
+                        <li>Experience working with the artist as a lead creative on multiple projects</li>
+                        <ul>
+                            <a href="https://music.apple.com/us/album/crosseffect/1468331239" title="Link to Album on Apple Music">- CrossEffect (2020)</a>
+                            <a href="https://music.apple.com/us/album/brainstorming-3/1445485433" title="Link to Album on Apple Music">- Brainstorming 3 (2020)</a>
+                            <a href="https://music.apple.com/us/album/thinking-out-loud-ep/1501448215" title="Link to Album on Apple Music">- Thinking Out Loud (2020)</a>
+                            <a href="https://music.apple.com/us/album/painting-pictures/1579714208" title="Link to Album on Apple Music">- Painting Pictures (2021)</a>
+                        </ul>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                        <h3>Personal Media Coverage for <a href="https://www.interscope.com/">Interscope</a> Artist <a href="http://www.cocash.net/">Co Cash</a></h3>
+                        <span class="year">2018-2020</span>
+                        <h6 class="sub">Freelance Media Production</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for shooting live events and curating marketing assets</li>
+                        <li>Experience with touring photography and lifestyle photo and video production</li>
+                        <li>Experience working with a major label on multiple projects including two Albums</li>
+                        <ul>
+                            <a href="https://music.apple.com/us/album/f-a-c-t-s/1460296359" title="Link to Album on Apple Music">- F.A.C.T.S (2019)</a>
+                            <a href="https://music.apple.com/us/album/dapper-don-side-a-ep/1486867218" title="Link to Album on Apple Music">- Dapper Don (2020)</a>
+                        </ul>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                        <h3>Personal Media Coverage for CMG Artist Lil Migo</h3>
+                        <span class="year">2019-<i>present</i></span>
+                        <h6 class="sub">Freelance Media Production</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for shooting live events and curating marketing assets</li>
+                        <li>Experience with touring photography and lifestyle photo and video production</li>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                        <h3>Personal Media Coverage for CMG Artist BlocBoy JB</h3>
+                        <span class="year">2019-<i>present</i></span>
+                        <h6 class="sub">Freelance Media Production</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for shooting live events and curating marketing assets</li>
+                        <li>Experience with touring photography and lifestyle photo and video production</li>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                        <h3>Personal Media Coverage for Committed Records Artist Lil $tunna</h3>
+                        <span class="year">2018-<i>present</i></span>
+                        <h6 class="sub">Freelance Media Production</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for shooting live events and curating marketing assets</li>
+                        <li>Experience with touring photography and lifestyle photo and video production</li>
+                        <li>Experience working with the artist as a lead creative on multiple projects</li>
+                        <ul>
+                            <a href="https://music.apple.com/us/album/tha-coldest-ep/1495511887" title="Link to Album on Apple Music">- Tha Coldest (2020)</a>
+                            <a href="https://music.apple.com/us/album/popular-loner-ep/1562090689" title="Link to Album on Apple Music">- Popular Loner (2021)</a>
+                        </ul>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                        <h3>Personal Media Coverage for Moneybagg Yo</h3>
+                        <span class="year">2020</span>
+                        <h6 class="sub">Freelance Media Production</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for 24/7 Media Coverage</li>
+                        <li>Experience with touring photography and lifestyle photo and video production</li>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                        <h3>Personal Media Coverage for Committed Records Artist Lil $tunna</h3>
+                        <span class="year">2018-<i>present</i></span>
+                        <h6 class="sub">Freelance Media Production</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for shooting live events and curating marketing assets</li>
+                        <li>Experience with touring photography and lifestyle photo and video production</li>
+                        <li>Experience working with the artist as a lead creative on multiple projects</li>
+                        <ul>
+                            <a href="https://music.apple.com/us/album/tha-coldest-ep/1495511887" title="Link to Album on Apple Music">- Tha Coldest (2020)</a>
+                            <a href="https://music.apple.com/us/album/popular-loner-ep/1562090689" title="Link to Album on Apple Music">- Popular Loner (2021)</a>
+                        </ul>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                        <h3>Personal Media Coverage for Committed Records Artist Lil Beezy</h3>
+                        <span class="year">2018-<i>present</i></span>
+                        <h6 class="sub">Freelance Media Production</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for shooting live events and curating marketing assets</li>
+                        <li>Experience with touring photography and lifestyle photo and video production</li>
+                        <li>Experience working with the artist as a lead creative on multiple projects</li>
+                        <ul>
+                            <a href="https://music.apple.com/us/album/back-in-style-ep/1538255567" title="Link to Album on Apple Music">- Back in Style (2020)</a>
+                            <a href="https://music.apple.com/us/album/middle-finger/1580345021" title="Link to Album on Apple Music">- Middle Finger (2021)</a>
+                        </ul>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                            <h3>Personal Media Coverage for <a href="https://www.wmg.com/">Warner</a>  Artist <a href="https://www.commercialappeal.com/story/entertainment/music/2021/04/07/clay-krucial-perry-iii-mixtape-if-we-must-die-tay-keith-blocboy-jb-trippie-redd-memphis-rap/7018402002/">Clay "Krucial" Perry III</a></h3>
+                            <span class="year">2018-<i>present</i></span>
+                            <h6 class="sub">Freelance Media Production</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for shooting live events and curating marketing assets</li>
+                        <li>Experience with touring photography and lifestyle photo and video production</li>
+                        <li>Experience working with a major label on multiple projects including two Albums</li>
+                        <ul>
+                            <a href="https://music.apple.com/us/album/if-we-must-die/1556366174" title="Link to Album on Apple Music">- If We Must Die (2021)</a>
+                        </ul>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                        <h3>Photo coverage for during the Call of Duty LAN events for the 2020 season</h3>
+                        <span class="year">2020</span>
+                        <h6 class="sub">Freelance Photography</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for shooting call of duty pros and atmosphere in association with Optic Gaming</li>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                        <h3>Photo coverage for <a href="https://audiomack.com/">Audiomack's</a> "Up Now" Artist Pooh Shiesty</h3>
+                        <span class="year">2021</span>
+                        <h6 class="sub">Freelance Photography</h6>
+                    </div>
+                    <ol>
+                        <li>Responsible for shooting behind the scenes photos for multiple locations</li>
+                    </ol>
+                </div>
+                <div class="entry">
+                    <div class="top">
+                        <h3>Contractor</h3>
+                        <span class="year">2019-<i>present</i></span>
+                        <h6 class="sub">Front End Web Dev</h6>
+                    </div>
+                    <ol>
+                        <li>Enhanced Customer Service with immediate follow ups, pro activley addressing service issues and preventing future complications while also optimizing the support process</li>
+                        <li>Experince with development on Wordpress CMS and companines proprietary CMS</li>
+                        <li>Interacted with staff on all levels ensuring positive and efficient work enviorment</li>
+                    </ol>
+                </div>
             </div>
-            <div id="skills">
-                
+            <!-- SKILLS -->
+            <div class="card" id="skills">
+                <h1 class="heading">Skills</h1>
+                <div class="skill-block">
+                    HTML
+                </div>
+                <div class="skill-block">
+                    SCSS/CSS
+                </div>
+                <div class="skill-block">
+                    JQUERY/JS
+                </div>
+                <div class="skill-block">
+                    WORDPRESS
+                </div>
+                <div class="skill-block">
+                    CUSTOMER SUPPORT
+                </div>
+                <div class="skill-block">
+                    LIGHTROOM
+                </div>
+                <div class="skill-block">
+                    PHOTOSHOP
+                </div>
+                <div class="skill-block">
+                    PREMIERE PRO
+                </div>
+                <div class="skill-block">
+                    ILLUSTRATOR
+                </div>
+                <div class="skill-block">
+                    API USAGE
+                </div>
+                <div class="skill-block">
+                    PYTHON
+                </div>
             </div>
-            <div id="education">
-                
+            <!-- EDUCATION -->
+            <div class="card" id="education">
+                <h1 class="heading">Education</h1>
+                <div class="entry">
+                    <h3>University of Tennessee</h3>
+                    <span class="year">2017-2018</span>
+                    <a class="external-link" href="https://www.utk.edu/" title="Link to the University of Tennessee"><i class="fas fa-external-link-alt"></i></a>
+                    <h6 class="sub">Computer Science</h6>
+                </div>
+                <div class="entry">
+                    <h3>Treehouse Techdegree Program</h3>
+                    <span class="year">2018</span>
+                    <a href="https://teamtreehouse.com/techdegree" title="Link to Team Treehouse"><i class="fas fa-external-link-alt"></i></a>
+                    <h6 class="sub">Front End Web Development</h6>
+                </div>
             </div>
         </section>
+        <footer>
+            <span>&copy; 2021 by Dylan Olson</span>
+        </footer>
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?ckcachebust=665829686"></script>
+        <script src="js/helper-min.js?ckcachebust=CC54FD1429EC4EBC6E122ADACDE676A7"></script>
     </body>
 </html>

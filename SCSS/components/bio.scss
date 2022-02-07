@@ -4,21 +4,29 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 1em;
+        padding: 1.5em 1.5rem 0 1.5rem;
+        background: rgba(0, 0, 0, .2);
+        // top section
         .vitals {
             position: relative;
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
             // pfp image 
             .pfp {
                 max-width: 100px;
                 border-radius: 50%;
+                width: calc(100% / 5);
             }
             // titles
             .title {
-                display: flex;
-                justify-content: flex-start;
+                width: calc(80% - 1.5rem);
                 margin-left: 1.5rem;
+                align-items: center;
+                .name {
+                    display: inline-block;
+                }
                 .pronoun {
                     display: inline-block;
                     margin-left: 5px;
@@ -27,7 +35,50 @@ body {
                     font-style: italic;
                 }
                 .category {
-                    flex: 100%;
+                    font-size: .9rem;
+                }
+                // social nav 
+                .socials ul.social-nav {
+                    margin: 1rem auto 0 0;
+                    padding: 0;
+                    a {
+                        color: $white;
+                        i {
+                            margin-right: .5rem;
+                            font-size: 1.5rem;
+                        }
+                        &:hover {
+                            color: $blue;
+                        }
+                    }
+                }
+            }
+            .description {
+                margin-top: .4rem;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                padding: .5rem;
+                span {
+                    font-size: .9rem;
+                    display: inline-block;
+                    margin: .25rem 1rem .25rem 0;
+                    color: $grey;
+                    i {
+                        margin-right: 5px;
+                    }
+                    &.version {
+                        width: 100%;
+                        display: block;
+                        margin: .25rem 0 .25rem 0;
+                    }
+                    a {
+                        color: $blue;
+                        &:hover {
+                            color: $white;
+                        }
+                    }
                 }
             }
         }

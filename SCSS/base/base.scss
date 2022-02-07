@@ -1,12 +1,24 @@
 /* Base Styles */
 
+html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
 body {
     font-size: 16px;
     margin: 0;
-    background: rgb(1,0,4);
-    background: linear-gradient(14deg, rgba(1,0,4,1) 0%, rgba(0,8,92,1) 100%);
+    padding: 0;
+    background-repeat: no-repeat;
     color: #FFF;
-    display: flex;
-    flex-direction: column;
+    min-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    background: rgb(5,18,38);
+    background: linear-gradient(14deg, rgba(5,18,38,1) 0%, rgba(9,16,55,1) 100%); 
+    position: relative;
 }
+
 

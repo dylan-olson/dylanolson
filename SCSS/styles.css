@@ -1,38 +1,97 @@
 /* Base Styles */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600&family=Poppins:ital@1&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
   font-size: 16px;
   margin: 0;
-  background: #010004;
-  background: linear-gradient(14deg, #010004 0%, #00085c 100%);
+  padding: 0;
+  background-repeat: no-repeat;
   color: #FFF;
-  display: flex;
-  flex-direction: column;
+  min-width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  background: #051226;
+  background: linear-gradient(14deg, #051226 0%, #091037 100%);
+  position: relative;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
 }
 
 h6 {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
   margin: 0;
+}
+
+p, li {
+  font-family: "Montserrat", sans-serif;
+  line-height: 24px;
+}
+
+a {
+  color: #FFF;
+  transition: color 0.44s ease;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+a:hover {
+  color: #809fff;
+}
+
+span {
+  font-family: "Montserrat", sans-serif;
 }
 
 body #bio {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1em;
+  padding: 1.5em 1.5rem 0 1.5rem;
+  background: rgba(0, 0, 0, 0.2);
 }
 body #bio .vitals {
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 body #bio .vitals .pfp {
   max-width: 100px;
   border-radius: 50%;
+  width: 20%;
 }
 body #bio .vitals .title {
-  display: flex;
-  justify-content: flex-start;
+  width: calc(80% - 1.5rem);
   margin-left: 1.5rem;
+  align-items: center;
+}
+body #bio .vitals .title .name {
+  display: inline-block;
 }
 body #bio .vitals .title .pronoun {
   display: inline-block;
@@ -42,14 +101,56 @@ body #bio .vitals .title .pronoun {
   font-style: italic;
 }
 body #bio .vitals .title .category {
-  flex: 100%;
+  font-size: 0.9rem;
+}
+body #bio .vitals .title .socials ul.social-nav {
+  margin: 1rem auto 0 0;
+  padding: 0;
+}
+body #bio .vitals .title .socials ul.social-nav a {
+  color: #FFF;
+}
+body #bio .vitals .title .socials ul.social-nav a i {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}
+body #bio .vitals .title .socials ul.social-nav a:hover {
+  color: #809fff;
+}
+body #bio .vitals .description {
+  margin-top: 0.4rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0.5rem;
+}
+body #bio .vitals .description span {
+  font-size: 0.9rem;
+  display: inline-block;
+  margin: 0.25rem 1rem 0.25rem 0;
+  color: #E7E7E7;
+}
+body #bio .vitals .description span i {
+  margin-right: 5px;
+}
+body #bio .vitals .description span.version {
+  width: 100%;
+  display: block;
+  margin: 0.25rem 0 0.25rem 0;
+}
+body #bio .vitals .description span a {
+  color: #809fff;
+}
+body #bio .vitals .description span a:hover {
+  color: #FFF;
 }
 
 body #main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1em;
+  padding: 1em 1.5rem 1.5rem 1.5rem;
 }
 body #main .navigation {
   width: 100%;
@@ -57,12 +158,87 @@ body #main .navigation {
 body #main .navigation ul {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   width: 100%;
   padding: 5px;
+  list-style-type: none;
+  margin: 0;
+  max-width: 100%;
 }
-body #main .navigation ul li {
-  flex: 1;
+body #main .navigation ul a {
+  margin: 0 auto 0 0;
+  position: relative;
+}
+body #main .navigation ul a.active:after {
+  content: "";
+  width: 95%;
+  margin: 0 auto;
+  height: 2px;
+  border-radius: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: -8px;
+  background: #809fff;
+}
+body #main .card {
+  margin-top: 0.5rem;
+  padding: 1rem 0;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease;
+  margin-bottom: 1rem;
+}
+body #main .card.active {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+body #main .card .heading {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+body #main .card .entry {
+  margin-bottom: 3rem;
+}
+body #main .card .entry:nth-child(even) {
+  background: rgba(0, 0, 0, 0.2);
+}
+body #main .card .entry .top {
+  width: 100%;
+  max-width: 100%;
+}
+body #main .card .entry .top > h3 {
   display: inline-block;
+  margin-top: 0;
+  margin: 0 0 0.3rem 0;
+}
+body #main .card .entry .top .external-link {
+  display: inline-block;
+  margin-left: 8px;
+}
+body #main .card .entry .top .year {
+  display: block;
+  font-weight: 100;
+  margin: 0 0 0.3rem 0;
+}
+body #main .card .entry .top .sub {
+  margin: 0 0 0.3rem 0;
+  font-weight: 300;
+}
+body #main .card .entry ol {
+  list-style-type: disc;
+}
+body #main .card .entry ul a {
+  line-height: 24px;
+  display: block;
+}
+
+footer {
+  width: 100%;
+  padding: 0.5rem;
   text-align: center;
+  position: absolute;
+  bottom: 0;
 }
