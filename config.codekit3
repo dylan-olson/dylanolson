@@ -9,11 +9,11 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/IMG\/DW3A9724.png" : {
+    "\/img\/DW3A9724.png" : {
       "ft" : 32768,
       "iS" : 486762,
       "oA" : 0,
-      "oAP" : "\/IMG\/DW3A9724.png",
+      "oAP" : "\/img\/DW3A9724.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -23,7 +23,7 @@
       "rq" : 75
     },
     "\/index.html" : {
-      "cB" : 1,
+      "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
@@ -71,7 +71,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/SCSS\/base\/base.scss" : {
+    "\/scss\/base\/base.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -80,13 +80,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/SCSS\/base\/base.css",
+      "oAP" : "\/scss\/base\/base.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/SCSS\/base\/typography.scss" : {
+    "\/scss\/base\/typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -95,13 +95,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/SCSS\/base\/typography.css",
+      "oAP" : "\/scss\/base\/typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/SCSS\/base\/variables.scss" : {
+    "\/scss\/base\/variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -110,13 +110,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/SCSS\/base\/variables.css",
+      "oAP" : "\/scss\/base\/variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/SCSS\/components\/bio.scss" : {
+    "\/scss\/components\/bio.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -125,13 +125,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/SCSS\/components\/bio.css",
+      "oAP" : "\/scss\/components\/bio.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/SCSS\/components\/footer.scss" : {
+    "\/scss\/components\/footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -140,13 +140,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/SCSS\/components\/footer.css",
+      "oAP" : "\/scss\/components\/footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/SCSS\/components\/main.scss" : {
+    "\/scss\/components\/main.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -155,13 +155,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/SCSS\/components\/main.css",
+      "oAP" : "\/scss\/components\/main.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/SCSS\/normalize-min.css" : {
+    "\/scss\/normalize-min.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -169,11 +169,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/SCSS\/normalize-min-min.css",
+      "oAP" : "\/scss\/normalize-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/SCSS\/styles.css" : {
+    "\/scss\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -181,11 +181,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/SCSS\/styles-min.css",
+      "oAP" : "\/scss\/styles-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/SCSS\/styles.scss" : {
+    "\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -194,7 +194,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/SCSS\/styles.css",
+      "oAP" : "\/scss\/styles.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
