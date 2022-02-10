@@ -9,19 +9,6 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/img\/DW3A9724.png" : {
-      "ft" : 32768,
-      "iS" : 486762,
-      "oA" : 0,
-      "oAP" : "\/img\/DW3A9724.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -170,6 +157,18 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/normalize-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/scss\/normalize.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/scss\/normalize-min.css",
       "oF" : 0,
       "pg" : 0
     },
