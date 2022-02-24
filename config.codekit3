@@ -23,7 +23,7 @@
       "rq" : 75
     },
     "\/index.html" : {
-      "cB" : 0,
+      "cB" : 1,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
@@ -154,7 +154,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/scss\/components\/main.css",
       "oF" : 0,
       "oS" : 0,
