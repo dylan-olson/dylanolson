@@ -200,7 +200,7 @@ body #main .card .heading {
 }
 body #main .card .entry {
   padding: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 body #main .card .entry:nth-child(even) {
   background: rgba(0, 0, 0, 0.2);
@@ -217,6 +217,10 @@ body #main .card .entry .top > h3 {
 body #main .card .entry .top .external-link {
   display: inline-block;
   margin-left: 8px;
+  color: #809fff;
+}
+body #main .card .entry .top .external-link:hover {
+  color: #FFF;
 }
 body #main .card .entry .top .year {
   display: block;
@@ -224,7 +228,7 @@ body #main .card .entry .top .year {
   margin: 0 0 0.3rem 0;
 }
 body #main .card .entry .top .sub {
-  margin: 0 0 0.3rem 0;
+  margin: 0.3rem 0 0.3rem 0;
   font-weight: 300;
 }
 body #main .card .entry ol {
@@ -234,14 +238,21 @@ body #main .card .entry ul a {
   line-height: 24px;
   display: block;
 }
+body #main #overview {
+  padding: 1.5rem;
+}
 body #main #skills .skill-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 0 auto;
+  width: 98%;
 }
 body #main #skills .skill-container .skill-block {
   padding: 0.5rem;
   background-color: #809fff;
+  font-size: 1rem;
+  border-radius: 8px;
 }
 
 footer {
