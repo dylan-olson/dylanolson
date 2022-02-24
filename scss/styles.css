@@ -64,6 +64,10 @@ span {
   font-family: "Montserrat", sans-serif;
 }
 
+ul li, ol li {
+  margin-top: 0.3rem;
+}
+
 body #bio {
   display: flex;
   flex-direction: column;

@@ -48,3 +48,9 @@ a {
 span {
     font-family: $mont;
 }
+
+ul, ol {
+    li {
+        margin-top: .3rem;
+    }
+}
