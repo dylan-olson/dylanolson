@@ -148,10 +148,10 @@ body #main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1em 1.5rem 1.5rem 1.5rem;
 }
 body #main .navigation {
-  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
 }
 body #main .navigation ul {
   display: flex;
@@ -187,6 +187,7 @@ body #main .card {
   visibility: hidden;
   transition: opacity 1s ease;
   margin-bottom: 1rem;
+  padding: 1rem;
 }
 body #main .card.active {
   display: block;
@@ -240,4 +241,8 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+footer span {
+  font-size: 0.8rem;
+  opacity: 0.5;
 }
