@@ -88,10 +88,10 @@ body {
                     .light {
                         background-color: green;
                         border-radius: 0.5rem;
-                        height: 1rem;
-                        width: 1rem;
+                        height: .8rem;
+                        width: .8rem;
                         opacity: 0.3;
-                        filter: blur(0.1rem);
+                        filter: blur(0.2rem);
                         animation: pulse 2s ease infinite;
                     }
                     span {
