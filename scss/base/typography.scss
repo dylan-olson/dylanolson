@@ -50,7 +50,10 @@ span {
 }
 
 ul, ol {
-    li {
+    > li {
+        margin-top: .3rem;
+    }
+    > a {
         margin-top: .3rem;
     }
 }

@@ -72,7 +72,10 @@ span {
   font-family: "Montserrat", sans-serif;
 }
 
-ul li, ol li {
+ul > li, ol > li {
+  margin-top: 0.3rem;
+}
+ul > a, ol > a {
   margin-top: 0.3rem;
 }
 
@@ -262,6 +265,7 @@ body #main .card .entry ol {
 body #main .card .entry ul a {
   line-height: 24px;
   display: block;
+  font-weight: bold;
 }
 body #main .card .entry a {
   color: #809fff;
