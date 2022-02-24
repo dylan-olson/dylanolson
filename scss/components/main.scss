@@ -60,7 +60,6 @@ body {
             //ENTRIES
             .entry {
                 padding: 1.5rem;
-                margin-bottom: 2rem;
                 &:nth-child(even) {
                     background: rgba(0, 0, 0, .2);
                 }
@@ -75,10 +74,6 @@ body {
                     .external-link {
                         display: inline-block;
                         margin-left: 8px;
-                        color: $blue;
-                        &:hover {
-                            color: $white;
-                        }
                     }
                     .year {
                         display: block;
@@ -99,11 +94,17 @@ body {
                         display: block;
                     }
                 }
+                a {
+                    color: $blue;
+                    &:hover {
+                        color: $white;
+                    }
+                }
             }
         }
         // specialized sections 
         #overview {
-            padding: 1.5rem;
+            padding: 1rem 1.5rem;
         }
         #skills {
             .skill-container {
@@ -117,6 +118,7 @@ body {
                     background-color: $blue;
                     font-size: 1rem;
                     border-radius: 8px;
+                    margin-top: 1rem;
                 }
             }
         }
