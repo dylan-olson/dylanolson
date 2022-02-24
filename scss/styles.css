@@ -21,6 +21,9 @@ body {
   background: #051226;
   background: linear-gradient(14deg, #051226 0%, #091037 100%);
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 @keyframes pulse {
@@ -312,6 +315,7 @@ footer {
   width: 100%;
   padding: 0.5rem;
   text-align: center;
+  margin-top: auto;
 }
 footer span {
   font-size: 0.8rem;
