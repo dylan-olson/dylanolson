@@ -157,8 +157,9 @@ body #bio .vitals .description span a:hover {
 }
 body #bio .vitals .description .availability {
   width: 100%;
-  display: block;
+  display: flex;
   margin: 0.5rem 0 0.25rem 0;
+  align-items: center;
 }
 body #bio .vitals .description .availability .light {
   background-color: green;
@@ -166,11 +167,11 @@ body #bio .vitals .description .availability .light {
   height: 1rem;
   width: 1rem;
   opacity: 0.3;
-  filter: blur(0.2rem);
+  filter: blur(0.1rem);
   animation: pulse 2s ease infinite;
 }
 body #bio .vitals .description .availability span {
-  margin-left: 30px;
+  margin-left: 1rem;
 }
 
 body #main {
