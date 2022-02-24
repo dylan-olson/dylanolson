@@ -135,7 +135,7 @@ body #bio .vitals .description span i {
 body #bio .vitals .description span.version {
   width: 100%;
   display: block;
-  margin: 0.25rem 0 0.25rem 0;
+  margin: 0.5rem 0 0.25rem 0;
 }
 body #bio .vitals .description span a {
   color: #809fff;
