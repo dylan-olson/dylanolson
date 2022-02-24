@@ -262,6 +262,7 @@ body #main #skills .skill-container .skill-block {
   margin-top: 1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 footer {
