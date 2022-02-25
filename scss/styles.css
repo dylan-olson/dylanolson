@@ -322,6 +322,22 @@ body #main #skills .skill-container .skill-block.etc {
 }
 
 @media screen and (min-width: 767px) {
+  #bio #top {
+    position: relative;
+  }
+  #bio #top .socials {
+    position: absolute;
+    width: auto;
+    bottom: 0;
+    right: 0;
+  }
+  #bio #top .availability {
+    position: absolute;
+    width: auto;
+    top: 0;
+    right: 0;
+  }
+
   #main {
     display: grid !important;
     grid-template-columns: 3fr 1fr;
