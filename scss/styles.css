@@ -238,6 +238,11 @@ body #main .card .heading {
   font-weight: bold;
   padding-left: 1.5rem;
 }
+@media screen and (max-width: 767px) {
+  body #main .card .heading {
+    display: none;
+  }
+}
 body #main .card .entry {
   max-width: 100%;
   padding: 1.5rem;
@@ -283,14 +288,6 @@ body #main .card .entry a:hover {
 }
 body #main #overview {
   padding: 1rem 1.5rem;
-}
-body #main #overview .heading {
-  padding: 0;
-}
-@media screen and (max-width: 767px) {
-  body #main #overview .heading {
-    display: none;
-  }
 }
 body #main #skills .skill-container {
   display: flex;
