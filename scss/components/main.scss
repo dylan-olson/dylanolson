@@ -155,8 +155,15 @@ body {
     #bio {
         .top {
             position: relative;
-            .pfp {
-                display: none;
+            .vitals {
+                justify-content: left;
+                .pfp {
+                    display: none;
+                }
+                .title {
+                    margin-left: .5rem;
+                    width: auto;
+                }
             }
             .socials {
                 position: absolute;

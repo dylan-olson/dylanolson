@@ -326,8 +326,15 @@ body #main #skills .skill-container .skill-block.etc {
   #bio .top {
     position: relative;
   }
-  #bio .top .pfp {
+  #bio .top .vitals {
+    justify-content: left;
+  }
+  #bio .top .vitals .pfp {
     display: none;
+  }
+  #bio .top .vitals .title {
+    margin-left: 0.5rem;
+    width: auto;
   }
   #bio .top .socials {
     position: absolute;
