@@ -108,6 +108,11 @@ body {
         // specialized sections 
         #overview {
             padding: 1rem 1.5rem;
+            .heading {
+                @media screen and (max-width: 767px) {
+                    display: none;
+                }
+            }
         }
         #skills {
             .skill-container {
@@ -137,6 +142,40 @@ body {
                         background-color: $etcColor;
                     }
                 }
+            }
+        }
+    }
+}
+
+
+// break for desktop 
+@media screen and (min-width: 767px) {
+    .main {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "overview overview ."
+            "experience experience ."
+            ". . skills"
+            "education education ."
+        ;
+        .navigation {
+            display: none;
+        }
+        .card {
+            display: block;
+            &#overview {
+                grid-area: overview;
+            }
+            &#experience {
+                grid-area: experience;
+            }
+            &#skills {
+                grid-area: skills;
+            }
+            &#education {
+                grid-area: education;
             }
         }
     }
