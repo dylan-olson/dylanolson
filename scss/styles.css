@@ -237,7 +237,6 @@ body #main .card .heading {
   text-transform: uppercase;
   font-weight: bold;
   padding-left: 1.5rem;
-  padding: 0;
 }
 body #main .card .entry {
   max-width: 100%;
@@ -304,10 +303,9 @@ body #main #skills .skill-container .skill-block {
   background-color: #809fff;
   font-size: 1rem;
   border-radius: 8px;
-  margin-top: 1rem;
+  margin: 1rem 10px 0 10px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  margin-right: 10px;
   box-sizing: border-box;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   align-self: center;
@@ -378,6 +376,7 @@ body #main #skills .skill-container .skill-block.etc {
   }
   #main .card#skills .heading {
     text-align: center;
+    padding: 0;
   }
   #main .card#skills .skill-container {
     position: absolute;
