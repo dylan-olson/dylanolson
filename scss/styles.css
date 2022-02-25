@@ -332,7 +332,9 @@ body #main #skills .skill-container .skill-block.etc {
     display: none;
   }
   #main .card {
-    display: block;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
   #main .card#overview {
     grid-area: overview;

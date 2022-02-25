@@ -165,7 +165,9 @@ body {
             display: none;
         }
         .card {
-            display: block;
+            display: block!important;
+            visibility: visible!important;
+            opacity: 1!important;
             &#overview {
                 grid-area: overview;
             }
