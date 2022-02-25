@@ -237,6 +237,7 @@ body #main .card .heading {
   text-transform: uppercase;
   font-weight: bold;
   padding-left: 1.5rem;
+  padding: 0;
 }
 body #main .card .entry {
   max-width: 100%;
@@ -322,16 +323,16 @@ body #main #skills .skill-container .skill-block.etc {
 }
 
 @media screen and (min-width: 767px) {
-  #bio #top {
+  #bio .top {
     position: relative;
   }
-  #bio #top .socials {
+  #bio .top .socials {
     position: absolute;
     width: auto;
     bottom: 0;
     right: 0;
   }
-  #bio #top .availability {
+  #bio .top .availability {
     position: absolute;
     width: auto;
     top: 0;
