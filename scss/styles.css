@@ -334,7 +334,7 @@ body #main #skills .skill-container .skill-block.etc {
   }
   #bio .top .availability {
     position: absolute;
-    width: auto;
+    width: auto !important;
     top: 0;
     right: 0;
   }
