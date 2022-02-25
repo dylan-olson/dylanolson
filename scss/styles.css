@@ -347,6 +347,13 @@ body #main #skills .skill-container .skill-block.etc {
   #main .card#skills {
     grid-area: skills;
     grid-row: 1/2;
+    position: relative;
+  }
+  #main .card#skills .heading {
+    text-align: center;
+  }
+  #main .card#skills .skill-container {
+    position: absolute;
   }
   #main .card#education {
     grid-area: education;

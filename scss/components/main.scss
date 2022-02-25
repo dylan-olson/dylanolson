@@ -179,6 +179,13 @@ body {
             &#skills {
                 grid-area: skills;
                 grid-row: 1 / 2;
+                position: relative;
+                .heading {
+                    text-align: center;
+                }
+                .skill-container {
+                    position: absolute;
+                }
             }
             &#education {
                 grid-area: education;
