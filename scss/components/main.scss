@@ -155,6 +155,9 @@ body {
     #bio {
         .top {
             position: relative;
+            .pfp {
+                display: none;
+            }
             .socials {
                 position: absolute;
                 width: auto;
