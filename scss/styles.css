@@ -326,7 +326,7 @@ body #main #skills .skill-container .skill-block.etc {
     display: grid !important;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "overview overview ." "experience experience ." ". . skills" "education education .";
+    grid-template-areas: "overview ." "experience  ." ".  skills" "education .";
   }
   #main .navigation {
     display: none;

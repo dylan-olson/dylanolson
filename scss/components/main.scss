@@ -156,10 +156,10 @@ body {
         grid-template-columns: 3fr 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
-            "overview overview ."
-            "experience experience ."
-            ". . skills"
-            "education education ."
+            "overview ."
+            "experience  ."
+            ".  skills"
+            "education ."
         ;
         .navigation {
             display: none;
