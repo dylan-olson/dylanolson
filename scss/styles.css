@@ -322,28 +322,28 @@ body #main #skills .skill-container .skill-block.etc {
 }
 
 @media screen and (min-width: 767px) {
-  .main {
+  #main {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: "overview overview ." "experience experience ." ". . skills" "education education .";
   }
-  .main .navigation {
+  #main .navigation {
     display: none;
   }
-  .main .card {
+  #main .card {
     display: block;
   }
-  .main .card#overview {
+  #main .card#overview {
     grid-area: overview;
   }
-  .main .card#experience {
+  #main .card#experience {
     grid-area: experience;
   }
-  .main .card#skills {
+  #main .card#skills {
     grid-area: skills;
   }
-  .main .card#education {
+  #main .card#education {
     grid-area: education;
   }
 }
