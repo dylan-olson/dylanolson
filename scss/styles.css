@@ -325,7 +325,7 @@ body #main #skills .skill-container .skill-block.etc {
   #main {
     display: grid !important;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: repeat(4, minmax(200px, auto));
     grid-template-areas: "overview ." "experience  ." ".  skills" "education .";
   }
   #main .navigation {
@@ -338,15 +338,19 @@ body #main #skills .skill-container .skill-block.etc {
   }
   #main .card#overview {
     grid-area: overview;
+    grid-row: 1/2;
   }
   #main .card#experience {
     grid-area: experience;
+    grid-row: 2/3;
   }
   #main .card#skills {
     grid-area: skills;
+    grid-row: 1/2;
   }
   #main .card#education {
     grid-area: education;
+    grid-row: 3/4;
   }
 }
 footer {
