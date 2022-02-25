@@ -297,8 +297,7 @@ body #main #skills .skill-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 auto;
-  width: 98%;
+  padding: 0 1rem;
 }
 body #main #skills .skill-container .skill-block {
   padding: 0.5rem;
@@ -311,6 +310,7 @@ body #main #skills .skill-container .skill-block {
   margin-right: 10px;
   box-sizing: border-box;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  align-self: center;
 }
 body #main #skills .skill-container .skill-block.code {
   background-color: #005a00;
