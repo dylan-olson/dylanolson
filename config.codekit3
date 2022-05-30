@@ -17,6 +17,52 @@
       "oAP" : "\/index.html",
       "oF" : 0
     },
+    "\/main.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/main-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/main.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/main.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/scss\/base\/_helpers.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -62,6 +108,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/components\/_body.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/components\/_body.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/components\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -91,21 +152,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/scss\/components\/_main.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/scss\/components\/_main.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
     }
   },
   "hooks" : [
@@ -116,7 +162,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 675559576.15976596,
-    "displayValue" : "resume2022",
+    "displayValue" : "dylanolson",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-cafe",
     "iconImageWasSetByUser" : 0
