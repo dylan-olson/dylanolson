@@ -1,1 +1,0 @@
-$(document).ready((function(){$(".nav-item").click((function(e){e.preventDefault();var t=$(this).attr("href");$(".nav-item").removeClass("active"),$(".card.active").removeClass("active"),$(this).toggleClass("active"),$(t).toggleClass("active")}))}));

@@ -1,0 +1,8 @@
+// animations
+@keyframes pulse {
+    35% {
+        opacity: 0.7;
+        /*     transform: scale(1.05); */
+        filter: blur(0.3rem);
+    }
+}

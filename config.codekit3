@@ -4,74 +4,20 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "E5005CC3-70EC-442F-AD39-C6A32F6D2C62"
+      "uuidString" : "4EFC700B-9733-4CCA-A982-A9D11C7EF268"
     }
   ],
-  "creatorBuild" : "34335",
+  "creatorBuild" : "34365",
   "files" : {
-    "\/img\/DW3A9724.png" : {
-      "ft" : 32768,
-      "iS" : 489308,
-      "oA" : 0,
-      "oAP" : "\/img\/DW3A9724.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/index.html" : {
-      "cB" : 1,
+      "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/index.html",
       "oF" : 0
     },
-    "\/js\/helper-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/helper-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/helper.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/helper-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/README.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/scss\/base\/base.scss" : {
+    "\/scss\/base\/_helpers.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -80,13 +26,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/base\/base.css",
+      "oAP" : "\/scss\/base\/_helpers.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/base\/typography.scss" : {
+    "\/scss\/base\/_reset.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -95,13 +41,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/base\/typography.css",
+      "oAP" : "\/scss\/base\/_reset.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/base\/variables.scss" : {
+    "\/scss\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -110,13 +56,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/base\/variables.css",
+      "oAP" : "\/scss\/base\/_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/components\/bio.scss" : {
+    "\/scss\/components\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -125,13 +71,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/components\/bio.css",
+      "oAP" : "\/scss\/components\/_footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/components\/footer.scss" : {
+    "\/scss\/components\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -140,13 +86,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/components\/footer.css",
+      "oAP" : "\/scss\/components\/_header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/components\/main.scss" : {
+    "\/scss\/components\/_main.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -155,58 +101,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/components\/main.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/scss\/normalize-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/scss\/normalize-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/scss\/normalize.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/scss\/normalize-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/scss\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/scss\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/scss\/styles.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/scss\/styles.css",
+      "oAP" : "\/scss\/components\/_main.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -220,10 +115,10 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 665792204.28774297,
-    "displayValue" : "dylanolson",
+    "creationDate" : 675559576.15976596,
+    "displayValue" : "resume2022",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-azure",
+    "iconImageName" : "brackets-cafe",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
@@ -574,10 +469,6 @@
         "active" : 0,
         "optionString" : "'1tbs', {'allowSingleLine': true}"
       },
-      "callback-return" : {
-        "active" : 0,
-        "optionString" : "['callback', 'cb', 'next']"
-      },
       "camelcase" : {
         "active" : 0,
         "optionString" : "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
@@ -651,7 +542,7 @@
         "optionString" : "'always', {'null': 'always'}"
       },
       "for-direction" : {
-        "active" : 0
+        "active" : 1
       },
       "func-call-spacing" : {
         "active" : 0,
@@ -669,6 +560,10 @@
         "active" : 0,
         "optionString" : "'expression'"
       },
+      "function-call-argument-newline" : {
+        "active" : 0,
+        "optionString" : "'always'"
+      },
       "function-paren-newline" : {
         "active" : 0,
         "optionString" : "'multiline'"
@@ -678,11 +573,8 @@
         "optionString" : "{'before': true, 'after': false}"
       },
       "getter-return" : {
-        "active" : 0,
+        "active" : 1,
         "optionString" : "{'allowImplicit': false}"
-      },
-      "global-require" : {
-        "active" : 0
       },
       "grouped-accessor-pairs" : {
         "active" : 0,
@@ -691,11 +583,7 @@
       "guard-for-in" : {
         "active" : 0
       },
-      "handle-callback-err" : {
-        "active" : 0,
-        "optionString" : "'err'"
-      },
-      "id-blacklist" : {
+      "id-denylist" : {
         "active" : 0,
         "optionString" : "'data', 'err', 'e', 'cb', 'callback'"
       },
@@ -810,7 +698,7 @@
         "active" : 0
       },
       "no-async-promise-executor" : {
-        "active" : 0
+        "active" : 1
       },
       "no-await-in-loop" : {
         "active" : 0
@@ -818,9 +706,6 @@
       "no-bitwise" : {
         "active" : 0,
         "optionString" : "{'allow': ['~'], 'int32Hint': true}"
-      },
-      "no-buffer-constructor" : {
-        "active" : 0
       },
       "no-caller" : {
         "active" : 0
@@ -840,7 +725,7 @@
       },
       "no-confusing-arrow" : {
         "active" : 0,
-        "optionString" : "{'allowParens': true}"
+        "optionString" : "{'allowParens': true, 'onlyOneSimpleParam': false}"
       },
       "no-console" : {
         "active" : 1,
@@ -848,6 +733,9 @@
       },
       "no-const-assign" : {
         "active" : 1
+      },
+      "no-constant-binary-expression" : {
+        "active" : 0
       },
       "no-constant-condition" : {
         "active" : 1,
@@ -881,6 +769,9 @@
         "active" : 1
       },
       "no-dupe-keys" : {
+        "active" : 1
+      },
+      "no-duplicate-case" : {
         "active" : 1
       },
       "no-duplicate-imports" : {
@@ -924,12 +815,12 @@
       "no-extra-boolean-cast" : {
         "active" : 1
       },
-      "no-extra-labels" : {
+      "no-extra-label" : {
         "active" : 0
       },
       "no-extra-parens" : {
         "active" : 0,
-        "optionString" : "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
+        "optionString" : "'all'"
       },
       "no-extra-semi" : {
         "active" : 1
@@ -1012,12 +903,8 @@
         "active" : 0,
         "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
       },
-      "no-mixed-requires" : {
-        "active" : 0,
-        "optionString" : "{'grouping': false, 'allowCall': false }"
-      },
       "no-mixed-spaces-and-tabs" : {
-        "active" : 0,
+        "active" : 1,
         "optionString" : ""
       },
       "no-multi-assign" : {
@@ -1050,9 +937,6 @@
       "no-new-object" : {
         "active" : 0
       },
-      "no-new-require" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -1075,18 +959,9 @@
         "active" : 0,
         "optionString" : "{'props': false}"
       },
-      "no-path-concat" : {
-        "active" : 0
-      },
       "no-plusplus" : {
         "active" : 0,
         "optionString" : "{'allowForLoopAfterthoughts': false}"
-      },
-      "no-process-env" : {
-        "active" : 0
-      },
-      "no-process-exit" : {
-        "active" : 0
       },
       "no-promise-executor-return" : {
         "active" : 0
@@ -1095,7 +970,7 @@
         "active" : 0
       },
       "no-prototype-builtins" : {
-        "active" : 0
+        "active" : 1
       },
       "no-redeclare" : {
         "active" : 1,
@@ -1114,10 +989,6 @@
       },
       "no-restricted-imports" : {
         "active" : 0
-      },
-      "no-restricted-modules" : {
-        "active" : 0,
-        "optionString" : ""
       },
       "no-restricted-properties" : {
         "active" : 0,
@@ -1153,17 +1024,13 @@
       },
       "no-shadow" : {
         "active" : 0,
-        "optionString" : "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+        "optionString" : "{'builtinGlobals': false, 'hoist': 'functions', 'allow': [], 'ignoreOnInitialization': false}"
       },
       "no-shadow-restricted-names" : {
-        "active" : 0
+        "active" : 1
       },
       "no-sparse-arrays" : {
         "active" : 1
-      },
-      "no-sync" : {
-        "active" : 0,
-        "optionString" : "{'allowAtRootLevel': false}"
       },
       "no-tabs" : {
         "active" : 0,
@@ -1252,7 +1119,7 @@
         "active" : 0
       },
       "no-useless-catch" : {
-        "active" : 0
+        "active" : 1
       },
       "no-useless-computed-key" : {
         "active" : 0,
@@ -1265,7 +1132,7 @@
         "active" : 0
       },
       "no-useless-escape" : {
-        "active" : 0
+        "active" : 1
       },
       "no-useless-rename" : {
         "active" : 0,
@@ -1289,7 +1156,7 @@
         "active" : 0
       },
       "no-with" : {
-        "active" : 0
+        "active" : 1
       },
       "nonblock-statement-body-position" : {
         "active" : 0,
@@ -1396,10 +1263,6 @@
       "require-await" : {
         "active" : 0
       },
-      "require-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
-      },
       "require-unicode-regexp" : {
         "active" : 0
       },
@@ -1484,10 +1347,6 @@
       "use-isnan" : {
         "active" : 1,
         "optionString" : "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
-      },
-      "valid-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
       },
       "valid-typeof" : {
         "active" : 1,
@@ -1989,6 +1848,10 @@
         "active" : 0,
         "flagValue" : -1
       },
+      "keep_numbers" : {
+        "active" : 0,
+        "flagValue" : -1
+      },
       "keep_quoted_props" : {
         "active" : 0,
         "flagValue" : -1
@@ -2012,6 +1875,10 @@
       "passes" : {
         "active" : 1,
         "flagValue" : 1
+      },
+      "preserve_annotations" : {
+        "active" : 0,
+        "flagValue" : -1
       },
       "properties" : {
         "active" : 1,
@@ -2115,6 +1982,10 @@
       },
       "webkit" : {
         "active" : 0,
+        "flagValue" : -1
+      },
+      "wrap_func_args" : {
+        "active" : 1,
         "flagValue" : -1
       },
       "wrap_iife" : {
