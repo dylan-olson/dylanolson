@@ -121,6 +121,7 @@ header {
 @media (max-width: 600px) {
   header {
     align-items: flex-start;
+    flex-direction: column;
   }
 }
 header .bio .name {
