@@ -187,7 +187,7 @@ header .right .social-nav {
   justify-content: flex-end;
   list-style-type: none;
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   header .right .social-nav {
     display: none;
   }

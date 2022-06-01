@@ -74,7 +74,7 @@ header {
             padding: 0;
             justify-content: flex-end;
             list-style-type: none;
-            @media (max-width: 600px) {
+            @media (max-width: 767px) {
                 display: none;
                 li {
                     width: 20%;
