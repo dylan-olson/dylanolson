@@ -189,10 +189,7 @@ header .right .social-nav {
 }
 @media (max-width: 600px) {
   header .right .social-nav {
-    position: absolute;
-    top: 0;
-    right: 0;
-    flex-wrap: wrap;
+    display: none;
   }
   header .right .social-nav li {
     width: 20%;

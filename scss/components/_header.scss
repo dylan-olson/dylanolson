@@ -75,10 +75,7 @@ header {
             justify-content: flex-end;
             list-style-type: none;
             @media (max-width: 600px) {
-                position: absolute;
-                top: 0;
-                right: 0;
-                flex-wrap: wrap;
+                display: none;
                 li {
                     width: 20%;
                 }
