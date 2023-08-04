@@ -7,6 +7,22 @@
     }
 }
 
-// skill colors 
+// respond
+.mobile-only {
+    @media screen and (min-width: 767px) {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
 
-$skillColors: #1982C4, #FF595E, #8C93A8, #4D7C8A, #C16200, #FF66B3, #2B2D42, #4E0110, #5F0A87;
+.desktop-only {
+    @media screen and (max-width: 767px) {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+// skill colors 
+$skillColors: #1982C4, #FF595E, #8C93A8, #4D7C8A, #C16200, #FF66B3, #2B2D42, #4E0110, #5F0A87, #9FA0C3;

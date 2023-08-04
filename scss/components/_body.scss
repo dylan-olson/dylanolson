@@ -65,9 +65,15 @@ body {
             }
         }
         .right {
+            > h6 {
+                font-size: 1.1rem;
+                margin-bottom: .5rem;
+            }
             ul.social-nav {
                 padding: 0;
                 display: flex;
+                justify-content: center;
+                margin: 0 auto;
                 list-style-type: none;
                 gap: 10px;
                 font-size: 1.6em;
@@ -75,7 +81,7 @@ body {
         }
     }
     #about {
-        grid-column: span 5;
+        grid-column: span 3;
         > h6 {
             font-size: 1.1rem;
             margin-bottom: .5rem;
@@ -84,6 +90,25 @@ body {
             .link {
                 font-weight: bold;
                 font-size: .9em;
+            }
+            // special connect for mobile 
+            .about_connect {
+                padding: 1em 2em;
+                // border-radius: 4px;
+                // background-color: rgba(255, 255, 255, 0.05);
+                text-align: center;
+                ul.social-nav {
+                    padding: 0;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0 auto;
+                    list-style-type: none;
+                    gap: 20px;
+                    font-size: 2.5em;
+                }
+                .link {
+                    margin-top: 1em;
+                }
             }
         }
     }
@@ -96,13 +121,17 @@ body {
         .inner {
             .company {
                 > h1 {
-                    color: #EB5E55;
+                    // color: #EB5E55;
+                    color: #FFF;
                     margin-bottom: .5em;
                 }
                 .job-wrapper {
                     margin-left: 2em;
                     padding-left: 1em;
                     position: relative;
+                    @media screen and (max-width: 767px) {
+                        margin-left: 0;
+                    }
                     &::before {
                         content: " ";
                         display: block;
@@ -178,7 +207,7 @@ body {
                 justify-content: flex-start;
                 gap: 1em;
                 flex-wrap: wrap;
-                margin-top: .5em;
+                margin-top: .7em;
                 .skill {
                     display: flex;
                     padding: 8px 12px;
@@ -193,6 +222,8 @@ body {
                         font-size: 1.1em;
                         color: #FFF;
                         text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+                        font-weight: bold;
+                        font-family: $font;
                     }
                     // different colors
                     @for $i from 1 through length($skillColors) {

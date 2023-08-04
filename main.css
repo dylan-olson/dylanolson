@@ -126,6 +126,22 @@ i[class^=fa-brands] {
     filter: blur(0.3rem);
   }
 }
+@media screen and (min-width: 767px) {
+  .mobile-only {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-only {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
 header {
   display: flex;
   flex-wrap: nowrap;
@@ -285,15 +301,21 @@ body {
 #main #header .bio .version i {
   padding-right: 5px;
 }
+#main #header .right > h6 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
 #main #header .right ul.social-nav {
   padding: 0;
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
   list-style-type: none;
   gap: 10px;
   font-size: 1.6em;
 }
 #main #about {
-  grid-column: span 5;
+  grid-column: span 3;
 }
 #main #about > h6 {
   font-size: 1.1rem;
@@ -303,6 +325,22 @@ body {
   font-weight: bold;
   font-size: 0.9em;
 }
+#main #about .inner .about_connect {
+  padding: 1em 2em;
+  text-align: center;
+}
+#main #about .inner .about_connect ul.social-nav {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  list-style-type: none;
+  gap: 20px;
+  font-size: 2.5em;
+}
+#main #about .inner .about_connect .link {
+  margin-top: 1em;
+}
 #main #experience {
   grid-column: span 5;
 }
@@ -311,13 +349,18 @@ body {
   margin-bottom: 0.5rem;
 }
 #main #experience .inner .company > h1 {
-  color: #EB5E55;
+  color: #FFF;
   margin-bottom: 0.5em;
 }
 #main #experience .inner .company .job-wrapper {
   margin-left: 2em;
   padding-left: 1em;
   position: relative;
+}
+@media screen and (max-width: 767px) {
+  #main #experience .inner .company .job-wrapper {
+    margin-left: 0;
+  }
 }
 #main #experience .inner .company .job-wrapper::before {
   content: " ";
@@ -384,7 +427,7 @@ body {
   justify-content: flex-start;
   gap: 1em;
   flex-wrap: wrap;
-  margin-top: 0.5em;
+  margin-top: 0.7em;
 }
 #main #skills .inner .skill-wrapper .skill {
   display: flex;
@@ -401,33 +444,38 @@ body {
   font-size: 1.1em;
   color: #FFF;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
 }
-#main #skills .inner .skill-wrapper .skill:nth-child(9n+1) {
+#main #skills .inner .skill-wrapper .skill:nth-child(10n+1) {
   background: #1982C4;
 }
-#main #skills .inner .skill-wrapper .skill:nth-child(9n+2) {
+#main #skills .inner .skill-wrapper .skill:nth-child(10n+2) {
   background: #FF595E;
 }
-#main #skills .inner .skill-wrapper .skill:nth-child(9n+3) {
+#main #skills .inner .skill-wrapper .skill:nth-child(10n+3) {
   background: #8C93A8;
 }
-#main #skills .inner .skill-wrapper .skill:nth-child(9n+4) {
+#main #skills .inner .skill-wrapper .skill:nth-child(10n+4) {
   background: #4D7C8A;
 }
-#main #skills .inner .skill-wrapper .skill:nth-child(9n+5) {
+#main #skills .inner .skill-wrapper .skill:nth-child(10n+5) {
   background: #C16200;
 }
-#main #skills .inner .skill-wrapper .skill:nth-child(9n+6) {
+#main #skills .inner .skill-wrapper .skill:nth-child(10n+6) {
   background: #FF66B3;
 }
-#main #skills .inner .skill-wrapper .skill:nth-child(9n+7) {
+#main #skills .inner .skill-wrapper .skill:nth-child(10n+7) {
   background: #2B2D42;
 }
-#main #skills .inner .skill-wrapper .skill:nth-child(9n+8) {
+#main #skills .inner .skill-wrapper .skill:nth-child(10n+8) {
   background: #4E0110;
 }
-#main #skills .inner .skill-wrapper .skill:nth-child(9n+9) {
+#main #skills .inner .skill-wrapper .skill:nth-child(10n+9) {
   background: #5F0A87;
+}
+#main #skills .inner .skill-wrapper .skill:nth-child(10n+10) {
+  background: #9FA0C3;
 }
 @media (max-width: 830px) {
   #main #about, #main #experience, #main #skills {
