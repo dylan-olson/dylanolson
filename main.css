@@ -248,6 +248,11 @@ body {
   justify-content: center;
   padding: 6em 3em;
 }
+@media screen and (max-width: 767px) {
+  body {
+    padding: 4em 2em;
+  }
+}
 
 #main {
   width: 100%;

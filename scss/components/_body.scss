@@ -4,6 +4,9 @@ body {
     display: flex;
     justify-content: center;
     padding: 6em 3em;
+    @media screen and (max-width: 767px) {
+        padding: 4em 2em;
+    }
 }
 
 #main {
