@@ -65,10 +65,9 @@ select {
   html:focus-within {
     scroll-behavior: auto;
   }
-
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -203,29 +202,29 @@ header .right .social-nav li i {
   align-self: center;
 }
 
+body {
+  background: linear-gradient(190deg, #00102e 0%, black 100%);
+  color: #FFF;
+}
+
 #main {
   padding: 2rem;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 2em;
+}
+#main #header {
+  grid-column: span 3;
 }
 #main #about {
-  margin: 0.6rem;
-  width: calc(60% - 1.2rem);
-  padding-right: 1.8rem;
-  max-width: 800px;
+  grid-column: span 2;
 }
 #main #about h6 {
   font-size: 1.5rem;
   color: #FD4556;
   margin-bottom: 0.5rem;
   padding: 0 1rem;
-}
-#main #about .inner {
-  background: #000;
-  border-radius: 10px;
-  color: #FFFBF5;
-  padding: 1rem;
 }
 #main #about .inner p {
   line-height: 1.6rem;
@@ -235,20 +234,13 @@ header .right .social-nav li i {
   font-weight: bold;
 }
 #main #publications {
-  margin: 0.6rem;
-  flex: 1;
+  grid-column: span 1;
 }
 #main #publications h6 {
   font-size: 1.5rem;
   color: #FD4556;
   margin-bottom: 0.5rem;
   padding: 0 1rem;
-}
-#main #publications .inner {
-  background: #000;
-  border-radius: 10px;
-  color: #FFFBF5;
-  padding: 1rem;
 }
 #main #publications .inner .pub {
   margin-bottom: 1rem;
@@ -261,25 +253,17 @@ header .right .social-nav li i {
   font-weight: bold;
 }
 #main #publications .inner .pub .year {
-  color: #FFFBF5;
   display: block;
   font-style: italic;
 }
 #main #experience {
-  width: calc(100% - 1.2rem);
-  margin: 0.6rem;
+  grid-column: span 3;
 }
 #main #experience h6 {
   font-size: 1.5rem;
   color: #FD4556;
   margin-bottom: 0.5rem;
   padding: 0 1rem;
-}
-#main #experience .inner {
-  background: #000;
-  border-radius: 10px;
-  color: #FFFBF5;
-  padding: 1rem;
 }
 #main #experience .inner .title {
   color: #FFFBF5;
@@ -292,17 +276,7 @@ header .right .social-nav li i {
 }
 @media (max-width: 767px) {
   #main #about, #main #publications {
-    width: calc(100% - 1.2rem);
-  }
-  #main #about {
-    order: 1;
-    padding-right: 0;
-  }
-  #main #experience {
-    order: 2;
-  }
-  #main #publications {
-    order: 3;
+    grid-column: span 3;
   }
 }
 

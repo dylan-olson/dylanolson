@@ -1,13 +1,19 @@
+body {
+    background: linear-gradient(190deg, #00102e 0%, black 100%);
+    color: #FFF;
+}
+
 #main {
     padding: 2rem;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2em;
+    #header {
+        grid-column: span 3;
+    }
     #about {
-        margin: .6rem;
-        width: calc(60% - (.6rem * 2));
-        padding-right: 1.8rem;
-        max-width: 800px;
+        grid-column: span 2;
         h6 {
             font-size: 1.5rem;
             color: #FD4556;
@@ -15,10 +21,6 @@
             padding: 0 1rem;
         }
         .inner {
-            background: #000;
-            border-radius: 10px;
-            color: #FFFBF5;
-            padding: 1rem;
             p {
                 line-height: 1.6rem;
                 &:not(:first-child) {
@@ -29,8 +31,7 @@
         }
     }
     #publications {
-        margin: .6rem;
-        flex: 1;
+        grid-column: span 1;
         h6 {
             font-size: 1.5rem;
             color: #FD4556;
@@ -38,10 +39,6 @@
             padding: 0 1rem;
         }
         .inner {
-            background: #000;
-            border-radius: 10px;
-            color: #FFFBF5;
-            padding: 1rem;
             // publication
             .pub {
                 margin-bottom: 1rem;
@@ -56,7 +53,6 @@
                 }
             
                 .year {
-                    color: #FFFBF5;
                     display: block;
                     font-style: italic;
                 }
@@ -64,8 +60,7 @@
         }
     }
     #experience {
-        width: calc(100% - (.6rem * 2));
-        margin: .6rem;
+        grid-column: span 3;
         h6 {
             font-size: 1.5rem;
             color: #FD4556;
@@ -73,10 +68,6 @@
             padding: 0 1rem;
         }
         .inner {
-            background: #000;
-            border-radius: 10px;
-            color: #FFFBF5;
-            padding: 1rem;
             .title {
                 color: #FFFBF5;
             }
@@ -91,17 +82,7 @@
     // MOBILE 
     @media (max-width: 767px) {
         #about, #publications {
-            width: calc(100% - (.6rem * 2));
-        }
-        #about {
-            order: 1;
-            padding-right: 0;
-        }
-        #experience {
-            order: 2;
-        }
-        #publications {
-            order: 3;
+            grid-column: span 3;
         }
     }
 }
