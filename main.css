@@ -315,7 +315,7 @@ body {
   font-size: 1.6em;
 }
 #main #about {
-  grid-column: span 3;
+  grid-column: span 5;
 }
 #main #about > h6 {
   font-size: 1.1rem;
