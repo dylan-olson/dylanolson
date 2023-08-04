@@ -1,2 +1,2 @@
 # dylanolson
-Online Resume 
+Resume: https://dylan-olson.github.io/dylanolson/
